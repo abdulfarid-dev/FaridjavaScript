@@ -1,4 +1,4 @@
-// let arr=[1,2,3,4,5]
+let arr=[1,2,3,4,5]
 
 let arr=["jan","feb","march","april"]
 console.log(arr)
@@ -26,7 +26,7 @@ for(i=0;i<arr1.length ;i++)
 }
  console.log(newArry)
 
- //if you want to print in reverse order
+ //Reverse Array Element Print 
 
 
  let ar=[23,45,32,54,12,34,78,98,65]
