@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>add langauge using javascript
+
+    </title>
+</head>
+<body style="background-color: black; color:white;">
+    <ul class="language">
+        <li>javascript</li>
+ </ul>
+<script>
+    function addlanguage(langauge)
+    {
+        const li= document.createElement('li');
+        li.innerHTML=`${langauge}`;
+        document.querySelector('.language').appendChild(li);
+
+}
+addlanguage('python');
+addlanguage('java');
+addlanguage('c++');
+    
+</script>
+</body>
+</html>

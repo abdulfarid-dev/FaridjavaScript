@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All pattern </title>
+
+    <style>
+    
+ body{
+    color: red;
+    font-size: 50px;
+    background-color: bisque;
+     }
+
+    </style>
+</head>
+<body>
+    
+
+    <script>
+        //-----1----------Rectangle
+
+        
+    for(let i=1;i<=5;i++)
+    
+    {
+       for(let j=1;j<=5;j++)
+     
+        {
+         document.write("*");
+        }
+        document.write("<br/>")
+    }
+
+    document.write("<br/>");
+
+
+// *****
+// *****
+// *****
+// *****
+// *****
+    
+
+//2 hollo rectangular
+
+     for(let i=1;i<=5;i++)
+    
+    {
+       for(let j=1;j<=5;j++)
+     
+        if(i==1||i==5||j==1||j==5){
+         document.write("*");
+        }
+        else{
+            document.write("&nbsp;&nbsp;")// Non-Breaking Space
+        }
+        document.write("<br/>")
+    }
+
+    document.write("<br/>");
+
+    
+// * * * * *
+// *       *
+// *       *
+// *       *
+// * * * * *
+    
+
+
+     //-----3-----------Right Angle Tringle
+
+
+for(let i=1;i<=5;i++)
+{
+    for(let j=1;j<=i;j++ )
+    {
+    document.write("*");
+    }
+    document.write("<br/>");
+}
+
+document.write("<br/>");
+
+// *
+// **
+// ***
+// ****
+// *****
+
+
+//-----4------------------mirror view of right angle tringle
+
+
+
+for(let i=1; i<=5;i++)
+{
+    for(let j=5;j>i;j--)
+    {
+        document.write("-");
+    }
+    for(k=1;k<=i;k++)
+    {
+        document.write("*");
+    }
+    document.write('<br/>');
+}
+
+document.write("<br/>");
+
+
+// ----*
+// ---**
+// --***
+// -****
+// *****
+
+//----------5----------Reverse of right angle tringle
+
+ for(let i =1; i<=5;i++)
+       {
+             for(let j=5;j>=i; j--)
+              {
+              document.write("*");
+              }
+             document.write("<br/>");
+        }
+
+document.write("<br/>");
+
+
+// *****
+// ****
+// ***
+// **
+// *
+
+
+
+for (let i=1;i<=5;i++)
+ {
+     for(let j=i;j<=5;j++)
+{
+    document.write("*");
+}
+document.write('<br/>')
+
+}
+
+
+
+for(let i=1;i<=5;i++)
+{
+    for(let j=1;j<i;j++)
+{
+ document.write("-");
+}
+ for(let k=5;k>=i;k--)
+ {
+    document.write("*");
+ }
+ document.write("<br/>");
+
+}
+
+
+// *****
+// -****
+// --***
+// ---**
+// ----*
+
+
+// pending Task
+
+// 5---entered pyramid pattern  
+//         *
+//        ***
+//       *****
+//      *******
+//     *********
+//    ***********
+//   *************
+//  ***************
+
+
+//6--Daimond --
+
+// --------*       
+// -------***      
+// ------*****     
+// -----*******    
+// ----*********   
+// ---***********  
+// --************* 
+// -***************
+// --************* 
+// ---***********
+// ----********* 
+// -----*******  
+// ------*****   
+// -------***    
+// --------*
+
+// 7 Hollow Daimon
+
+// --------*       
+// -------* *      
+// ------*   *     
+// -----*     *    
+// ----*       *   
+// ---*         *  
+// --*           * 
+// -*             *
+// --*           *
+// ---*         * 
+// ----*       *  
+// -----*     *   
+// ------*   *    
+// -------* *     
+// --------*
+
+8//
+
+
+
+   </script>
+</body>
+</html>

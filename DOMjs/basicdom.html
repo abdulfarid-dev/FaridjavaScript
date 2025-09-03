@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>basic dom</title>
+</head>
+<body>
+    <script>// Step 1: Create the <ul> element
+        const ul = document.createElement('ul');
+        
+        // Step 2: Create and append <li> elements
+        const items = ['java', 'ppython', 'c++', 'javascript'];
+        
+        items.forEach(text => {
+          const li = document.createElement('li'); // create <li>
+          li.textContent = text;                   // set its text
+          ul.appendChild(li);                      // append to <ul>
+        });
+        
+        // Step 3: Append the <ul> to the document body or any other container
+        document.body.appendChild(ul);
+
+
+
+
+        const p = document.createElement('p');
+p.innerHTML = "Hello, Farid!";
+document.body.appendChild(p);
+
+// ---------------------------------------------------------------------------------------------------------
+
+// Select the 2nd <li> element
+  const secondItem = document.querySelector('li:nth-child(2)');
+console.log(secondItem.textContent); // Output: Item 2
+
+
+
+        </script>
+        <ul>
+          <li>Item 1</li>  <!-- 1st child -->
+          <li>Item 2</li>  <!-- 2nd child -->
+          <li>Item 3</li>  <!-- 3rd child -->
+        </ul>
+        
+</body>
+</html>
