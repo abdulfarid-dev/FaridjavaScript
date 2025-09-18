@@ -27,9 +27,9 @@
 
 // 2 Counting Table           *****************************************
 
-// var d =10;
 
-// for(let i=1; i<=d;i++)
+
+// for(let i=1; i<=10;i++)
 // {
 //     var count2 = i*2;
 //     var count3 = i*3;
@@ -45,29 +45,29 @@
 
 // 2 factorial      *****************************************
 
-// let fec = 1;
-// for (let i = 6; i >= 1; i--)
-//      {
-//                                               // fec *= i; // shorthand for: fec = fec * i;
-// fec = fec * i;
-//     }
-// console.log(fec);
+let fec = 1;
+for (let i = 6; i >= 1; i--)
+     {
+                                              // fec *= i; // shorthand for: fec = fec * i;
+fec = fec * i;
+    }
+console.log(fec);
 
 
 // 2 febanico Series     ****************************************0,1,1,2,3,5
 
-// var a=0;
-// var b=1;
-// console.log(a);
-// console.log(b);
+var a=0;
+var b=1;
+console.log(a);
+console.log(b);
 
-// for(var i=0;i<=10;i++){ 
-// var temp=a+b;  //0+1
-// console.log(temp);//1-2
-// a=b;//1-
-// b=temp//1
+for(var i=0;i<=10;i++){ 
+var temp=a+b;  //0+1
+console.log(temp);//
+a=b;//1-
+b=temp//1
 
-// }
+}
 
 // 3 check prime no or not     *************************jo 1 se aur khud ke alawa agar kisi number se divisible oh prime no hota ha
 
